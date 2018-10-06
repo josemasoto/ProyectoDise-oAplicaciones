@@ -1,0 +1,7 @@
+D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\bin\Debug\ProyectoDiseñoAplicaciones.dll.config
+D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\bin\Debug\ProyectoDiseñoAplicaciones.dll
+D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\bin\Debug\ProyectoDiseñoAplicaciones.pdb
+D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.csprojAssemblyReference.cache
+D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.csproj.CoreCompileInputs.cache
+D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.dll
+D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.pdb
