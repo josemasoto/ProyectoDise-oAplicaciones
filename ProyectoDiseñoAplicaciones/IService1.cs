@@ -12,9 +12,10 @@ namespace ProyectoDiseñoAplicaciones
     public interface IService1
     {
         [OperationContract]
-        Cliente GetCliente(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente);
-        Proveedor GetProveedor(int idProveedor, string nombreProveedor, int telefonoProveedor, string direccionProveedor, string tipoProveedor);
-        Evento GetEvento(int idEvento, DateTime fechaEvento, List<string> listaProveedoresEvento, double duracionEvento, decimal precioEvento, List<decimal> pagosEvento);
+        Cliente GetCliente(int id, string nombre, int telefono, string direccion);
+        /*Proveedor GetProveedor(int id, string nombre, int telefono, string direccion, string tipo);
+        Evento GetEvento(int id, DateTime fecha, List<Proveedor> listaproveedores, double duracion, decimal precio, List<Pago> pagos);
+    */
     }
     
 }

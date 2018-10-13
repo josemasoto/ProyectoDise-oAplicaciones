@@ -9,13 +9,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblIdCliente" runat="server" Text="Label">Id Cliente: </asp:Label>
+            <asp:Label ID="lblIdCliente" runat="server" Text="Label">Id: </asp:Label>
             <br/>
-            <asp:Label ID="lblNombreCliente" runat="server" Text="Label">Nombre Cliente: </asp:Label>
+            <asp:Label ID="lblNombreCliente" runat="server" Text="Label">Nombre: </asp:Label>
             <br/>
-            <asp:Label ID="lblTelefonoCliente" runat="server" Text="Label">Telefono Cliente: </asp:Label>
+            <asp:Label ID="lblTelefonoCliente" runat="server" Text="Label">Telefono: </asp:Label>
             <br/>
-            <asp:Label ID="lblDireccionCliente" runat="server" Text="Label">Direccion Cliente: </asp:Label>
+            <asp:Label ID="lblDireccionCliente" runat="server" Text="Label">Direccion: </asp:Label>
             <br/>
         </div>
     </form>

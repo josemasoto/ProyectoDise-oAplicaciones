@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProyectoDiseñoAplicaciones
 {
-    public class Proveedor
+    public class TipoProveduria
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public int Telefono { get; set; }
-        public string Direccion { get; set; }
-        public List<TipoProveduria> Tipo { get; set; }
-
     }
 }

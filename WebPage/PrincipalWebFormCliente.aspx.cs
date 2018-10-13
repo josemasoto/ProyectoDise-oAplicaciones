@@ -11,12 +11,12 @@ namespace WebPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            WebServiceProyeceto.Service1Client servicio = new WebServiceProyeceto.Service1Client();
+            WebServiceProyecto.Service1Client servicio = new WebServiceProyecto.Service1Client();
             var cliente = servicio.GetCliente(12345, "Pedro Picapiedra", 36251485, "San Jose");
-            lblIdCliente.Text = cliente.IdCliente.ToString();
-            lblNombreCliente.Text = cliente.NombreCliente;
-            lblTelefonoCliente.Text = cliente.TelefonoCliente.ToString();
-            lblDireccionCliente.Text = cliente.DireccionCliente;
+            lblIdCliente.Text = cliente.Id.ToString();
+            lblNombreCliente.Text = cliente.Nombre;
+            lblTelefonoCliente.Text = cliente.Telefono.ToString();
+            lblDireccionCliente.Text = cliente.Direccion;
         }
     }
 }

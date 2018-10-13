@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebPage.WebServiceProyeceto {
+namespace WebPage.WebServiceProyecto {
     using System.Runtime.Serialization;
     using System;
     
@@ -18,21 +18,20 @@ namespace WebPage.WebServiceProyeceto {
     [System.Runtime.Serialization.DataContractAttribute(Name="Cliente", Namespace="http://schemas.datacontract.org/2004/07/ProyectoDise%C3%B1oAplicaciones")]
     [System.SerializableAttribute()]
     public partial class Cliente : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DireccionClienteField;
+        private string DireccionField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdClienteField;
+        private int IdField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NombreClienteField;
+        private string NombreField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int TelefonoClienteField;
+        private int TelefonoField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -45,53 +44,53 @@ namespace WebPage.WebServiceProyeceto {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string DireccionCliente {
+        public string Direccion {
             get {
-                return this.DireccionClienteField;
+                return this.DireccionField;
             }
             set {
-                if ((object.ReferenceEquals(this.DireccionClienteField, value) != true)) {
-                    this.DireccionClienteField = value;
-                    this.RaisePropertyChanged("DireccionCliente");
+                if ((object.ReferenceEquals(this.DireccionField, value) != true)) {
+                    this.DireccionField = value;
+                    this.RaisePropertyChanged("Direccion");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdCliente {
+        public int Id {
             get {
-                return this.IdClienteField;
+                return this.IdField;
             }
             set {
-                if ((this.IdClienteField.Equals(value) != true)) {
-                    this.IdClienteField = value;
-                    this.RaisePropertyChanged("IdCliente");
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public string NombreCliente {
+        public string Nombre {
             get {
-                return this.NombreClienteField;
+                return this.NombreField;
             }
             set {
-                if ((object.ReferenceEquals(this.NombreClienteField, value) != true)) {
-                    this.NombreClienteField = value;
-                    this.RaisePropertyChanged("NombreCliente");
+                if ((object.ReferenceEquals(this.NombreField, value) != true)) {
+                    this.NombreField = value;
+                    this.RaisePropertyChanged("Nombre");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int TelefonoCliente {
+        public int Telefono {
             get {
-                return this.TelefonoClienteField;
+                return this.TelefonoField;
             }
             set {
-                if ((this.TelefonoClienteField.Equals(value) != true)) {
-                    this.TelefonoClienteField = value;
-                    this.RaisePropertyChanged("TelefonoCliente");
+                if ((this.TelefonoField.Equals(value) != true)) {
+                    this.TelefonoField = value;
+                    this.RaisePropertyChanged("Telefono");
                 }
             }
         }
@@ -107,23 +106,23 @@ namespace WebPage.WebServiceProyeceto {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WebServiceProyeceto.IService1")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WebServiceProyecto.IService1")]
     public interface IService1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetCliente", ReplyAction="http://tempuri.org/IService1/GetClienteResponse")]
-        WebPage.WebServiceProyeceto.Cliente GetCliente(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente);
+        WebPage.WebServiceProyecto.Cliente GetCliente(int id, string nombre, int telefono, string direccion);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetCliente", ReplyAction="http://tempuri.org/IService1/GetClienteResponse")]
-        System.Threading.Tasks.Task<WebPage.WebServiceProyeceto.Cliente> GetClienteAsync(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente);
+        System.Threading.Tasks.Task<WebPage.WebServiceProyecto.Cliente> GetClienteAsync(int id, string nombre, int telefono, string direccion);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : WebPage.WebServiceProyeceto.IService1, System.ServiceModel.IClientChannel {
+    public interface IService1Channel : WebPage.WebServiceProyecto.IService1, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<WebPage.WebServiceProyeceto.IService1>, WebPage.WebServiceProyeceto.IService1 {
+    public partial class Service1Client : System.ServiceModel.ClientBase<WebPage.WebServiceProyecto.IService1>, WebPage.WebServiceProyecto.IService1 {
         
         public Service1Client() {
         }
@@ -144,11 +143,11 @@ namespace WebPage.WebServiceProyeceto {
                 base(binding, remoteAddress) {
         }
         
-        public WebPage.WebServiceProyeceto.Cliente GetCliente(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente) {
+        public WebPage.WebServiceProyecto.Cliente GetCliente(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente) {
             return base.Channel.GetCliente(idCliente, nombreCliente, telefonoCliente, direccionCliente);
         }
         
-        public System.Threading.Tasks.Task<WebPage.WebServiceProyeceto.Cliente> GetClienteAsync(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente) {
+        public System.Threading.Tasks.Task<WebPage.WebServiceProyecto.Cliente> GetClienteAsync(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente) {
             return base.Channel.GetClienteAsync(idCliente, nombreCliente, telefonoCliente, direccionCliente);
         }
     }
