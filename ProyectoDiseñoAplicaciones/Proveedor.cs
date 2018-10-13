@@ -12,12 +12,24 @@ namespace ProyectoDiseñoAplicaciones
         public string Nombre { get; set; }
         public int Telefono { get; set; }
         public string Direccion { get; set; }
-        public List<TipoProveduria> Tipo { get; set; }
+        /*public List<TipoProveduria> Tipo { get; set; }*/
 
 
-        public void Agregar() { }
+        public void Agregar(int id, string nombre, int telefono, string direccion /*, TipoProveduria tipo*/)
+        {
+            Proveedor proveedor = new Proveedor
+            {
+                Id = id,
+                Nombre = nombre,
+                Telefono = telefono,
+                Direccion = direccion,
+                /*Tipo = tipo*/
+            };
+        }
 
         public void Modificar() { }
+
+        public void Buscar() { }
         
 
     }

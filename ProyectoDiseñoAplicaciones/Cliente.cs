@@ -13,9 +13,25 @@ namespace ProyectoDiseñoAplicaciones
         public int Telefono { get; set; }
         public string Direccion { get; set; }
 
-        public void Agregar() { }
+        public void Agregar(int id, string nombre, int telefono, string direccion) {
+            Cliente cliente = new Cliente
+            {
+                Id = id,
+                Nombre = nombre,
+                Telefono = telefono,
+                Direccion = direccion
+            };
+        }
+            
+        public void Modificar()
+        {
+           
+        }
 
-        public void Modificar() { }
+        public void Buscar()
+        {
+
+        }
 
     }
 }

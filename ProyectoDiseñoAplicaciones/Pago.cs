@@ -11,5 +11,26 @@ namespace ProyectoDiseñoAplicaciones
         public int Id { get; set; }
         public DateTime Fecha { get; set; }
         public decimal Monto { get; set; }
+
+        public void Agregar(int id, DateTime fecha, decimal monto)
+        {
+            Pago pago = new Pago
+            {
+                Id = id,
+                Fecha = fecha,
+                Monto = monto
+            };
+        }
+
+        public void Buscar()
+        {
+
+        }
+
+        public void Modificar()
+        {
+
+        }
+
     }
 }

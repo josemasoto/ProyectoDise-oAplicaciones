@@ -10,5 +10,19 @@ namespace ProyectoDiseñoAplicaciones
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
+
+        public void Agregar (int id, string nombre)
+        {
+            TipoProveduria tipoProveduria = new TipoProveduria
+            {
+                Id = id,
+                Nombre = nombre
+            };
+        }
+
+        public void Buscar() { }
+
+        public void Modificar () { }
+
     }
 }

@@ -21,7 +21,7 @@
                 <asp:BoundField DataField="Costo" HeaderText="Costo" SortExpression="Costo" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BaseDatosConnectionString %>" ProviderName="<%$ ConnectionStrings:BaseDatosConnectionString.ProviderName %>" SelectCommand="SELECT [Tipo Proveedor], [Nombre Proveedor], Costo FROM Proveedores"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT [Tipo Proveedor], [Nombre Proveedor], Costo FROM Proveedores"></asp:SqlDataSource>
     </form>
 </body>
 </html>
