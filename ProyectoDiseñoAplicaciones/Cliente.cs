@@ -8,10 +8,10 @@ namespace ProyectoDiseñoAplicaciones
 {
     public class Cliente
     {
-        public int IdCliente { get; set; }
-        public string NombreCliente { get; set; }
-        public int TelefonoCliente { get; set; }
-        public string DireccionCliente { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public int Telefono { get; set; }
+        public string Direccion { get; set; }
     
     }
 }

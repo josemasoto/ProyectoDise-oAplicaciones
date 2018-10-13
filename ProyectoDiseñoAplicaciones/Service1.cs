@@ -13,22 +13,22 @@ namespace ProyectoDiseñoAplicaciones
         public Cliente GetCliente(int idCliente, string nombreCliente, int telefonoCliente, string direccionCliente)
         {
             Cliente cliente1 = new Cliente();
-            cliente1.IdCliente = idCliente;
-            cliente1.NombreCliente = nombreCliente;
-            cliente1.TelefonoCliente = telefonoCliente;
-            cliente1.DireccionCliente = direccionCliente;
+            cliente1.Id = idCliente;
+            cliente1.Nombre = nombreCliente;
+            cliente1.Telefono = telefonoCliente;
+            cliente1.Direccion = direccionCliente;
             return cliente1;
         }
 
         public Evento GetEvento(int idEvento, DateTime fechaEvento, List<string> listaProveedoresEvento, double duracionEvento, decimal precioEvento, List<decimal> pagosEvento)
         {
             Evento evento1 = new Evento();
-            evento1.IdEvento = idEvento;
-            evento1.FechaEvento = fechaEvento;
-            evento1.ListaProveedoresEvento = listaProveedoresEvento;
-            evento1.DuracionEvento = duracionEvento;
-            evento1.PrecioEvento = precioEvento;
-            evento1.PagosEvento = pagosEvento;
+            evento1.Id = idEvento;
+            evento1.Fecha = fechaEvento;
+            evento1.ListaProveedores = listaProveedoresEvento;
+            evento1.Duracion = duracionEvento;
+            evento1.Precio = precioEvento;
+            evento1.Pagos = pagosEvento;
             return evento1;
 
         }
@@ -36,11 +36,11 @@ namespace ProyectoDiseñoAplicaciones
         public Proveedor GetProveedor(int idProveedor, string nombreProveedor, int telefonoProveedor, string direccionProveedor, string tipoProveedor)
         {
             Proveedor proveedor1 = new Proveedor();
-            proveedor1.IdProveedor = idProveedor;
-            proveedor1.NombreProveedor = nombreProveedor;
-            proveedor1.TelefonoProveedor = telefonoProveedor;
-            proveedor1.DireccionProveedor = direccionProveedor;
-            proveedor1.TipoProveedor = tipoProveedor;
+            proveedor1.Id = idProveedor;
+            proveedor1.Nombre = nombreProveedor;
+            proveedor1.Telefono = telefonoProveedor;
+            proveedor1.Direccion = direccionProveedor;
+            proveedor1.Tipo = tipoProveedor;
             return proveedor1;
         }
     }

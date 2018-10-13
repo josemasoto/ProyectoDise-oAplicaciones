@@ -11,7 +11,7 @@ namespace WebPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            WebServiceProyeceto.Service1Client servicio = WebServiceProyeceto.Service1Client();
+            WebServiceProyeceto.Service1Client servicio = new WebServiceProyeceto.Service1Client();
             var cliente = servicio.GetCliente(12345, "Pedro Picapiedra", 36251485, "San Jose");
             lblIdCliente.Text = cliente.IdCliente.ToString();
             lblNombreCliente.Text = cliente.NombreCliente;

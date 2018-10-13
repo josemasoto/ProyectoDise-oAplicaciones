@@ -8,12 +8,13 @@ namespace ProyectoDiseñoAplicaciones
 {
     public class Evento
     {
-        public int IdEvento { get; set; }
-        public DateTime FechaEvento { get; set; }
-        public List<string> ListaProveedoresEvento { get; set; }
-        public double DuracionEvento { get; set; }
-        public decimal PrecioEvento { get; set; }
-        public List<decimal> PagosEvento { get; set; }
+        public int Id { get; set; }
+        public DateTime Fecha { get; set; }
+        public List<string> ListaProveedores { get; set; }
+        public double Duracion { get; set; }
+        public decimal Precio { get; set; }
+        public List<decimal> Pagos { get; set; }
 
-    }
+    } 
+
 }

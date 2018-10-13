@@ -8,11 +8,11 @@ namespace ProyectoDiseñoAplicaciones
 {
     public class Proveedor
     {
-        public int IdProveedor { get; set; }
-        public string NombreProveedor { get; set; }
-        public int TelefonoProveedor { get; set; }
-        public string DireccionProveedor { get; set; }
-        public string TipoProveedor { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public int Telefono { get; set; }
+        public string Direccion { get; set; }
+        public string Tipo { get; set; }
 
     }
 }
