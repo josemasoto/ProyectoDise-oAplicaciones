@@ -15,6 +15,10 @@ namespace ProyectoDiseñoAplicaciones
         public decimal Precio { get; set; }
         public List<Pago> Pagos { get; set; }
 
+        public void Agregar() { }
+
+        public void Modificar() { }
+
     } 
 
 }

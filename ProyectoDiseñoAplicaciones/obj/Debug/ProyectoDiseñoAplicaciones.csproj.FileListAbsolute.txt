@@ -5,3 +5,10 @@ D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicacio
 D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.csproj.CoreCompileInputs.cache
 D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.dll
 D:\Documentos\DiseñoAppsC#\ProyectoDiseñoAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.pdb
+C:\Users\Kim\Documents\Universidad\III Q 2018\DAS\ProyectoDise-oAplicaciones\ProyectoDiseñoAplicaciones\bin\Debug\ProyectoDiseñoAplicaciones.dll.config
+C:\Users\Kim\Documents\Universidad\III Q 2018\DAS\ProyectoDise-oAplicaciones\ProyectoDiseñoAplicaciones\bin\Debug\ProyectoDiseñoAplicaciones.dll
+C:\Users\Kim\Documents\Universidad\III Q 2018\DAS\ProyectoDise-oAplicaciones\ProyectoDiseñoAplicaciones\bin\Debug\ProyectoDiseñoAplicaciones.pdb
+C:\Users\Kim\Documents\Universidad\III Q 2018\DAS\ProyectoDise-oAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.csprojAssemblyReference.cache
+C:\Users\Kim\Documents\Universidad\III Q 2018\DAS\ProyectoDise-oAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.csproj.CoreCompileInputs.cache
+C:\Users\Kim\Documents\Universidad\III Q 2018\DAS\ProyectoDise-oAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.dll
+C:\Users\Kim\Documents\Universidad\III Q 2018\DAS\ProyectoDise-oAplicaciones\ProyectoDiseñoAplicaciones\obj\Debug\ProyectoDiseñoAplicaciones.pdb

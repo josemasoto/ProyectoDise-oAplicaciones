@@ -14,5 +14,11 @@ namespace ProyectoDiseñoAplicaciones
         public string Direccion { get; set; }
         public List<TipoProveduria> Tipo { get; set; }
 
+
+        public void Agregar() { }
+
+        public void Modificar() { }
+        
+
     }
 }
